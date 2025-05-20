@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, MessageCircle } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 const Cart = () => {
@@ -239,7 +239,7 @@ const Cart = () => {
                   rel="noopener noreferrer"
                   className="flex items-center justify-center text-green-600 hover:text-green-700 transition-colors"
                 >
-                  <WhatsApp className="h-4 w-4 mr-2" />
+                  <MessageCircle className="h-4 w-4 mr-2" />
                   <span>Dúvidas? Fale no WhatsApp</span>
                 </a>
                 

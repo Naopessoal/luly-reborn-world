@@ -1,5 +1,5 @@
 
-import { Instagram, WhatsApp } from "lucide-react";
+import { MessageCircle, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -56,7 +56,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center text-gray-600 hover:text-green-600 transition-colors"
               >
-                <WhatsApp className="h-5 w-5 mr-2" />
+                <MessageCircle className="h-5 w-5 mr-2" />
                 <span>(19) 9684-5708</span>
               </a>
               <a 
