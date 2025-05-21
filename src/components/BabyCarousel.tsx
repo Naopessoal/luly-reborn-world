@@ -29,7 +29,11 @@ const BabyCarousel = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-4">Conheça a Luly</h2>
-          <div className="w-24 h-1 bg-luly-accent mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-luly-accent mx-auto rounded-full mb-4"></div>
+          <p className="text-gray-700 max-w-2xl mx-auto mb-6">
+            Veja como cada detalhe da Luly foi cuidadosamente desenvolvido para 
+            proporcionar uma experiência realista e afetuosa.
+          </p>
         </div>
 
         <div className="max-w-4xl mx-auto">
