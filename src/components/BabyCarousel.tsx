@@ -11,16 +11,20 @@ import { Card, CardContent } from "@/components/ui/card";
 const BabyCarousel = () => {
   const images = [
     {
-      src: "/lovable-uploads/c296e19d-903d-48bf-bdfb-8809c110c68b.png",
-      alt: "Boneca Reborn Luly - Vista lateral"
+      src: "/lovable-uploads/8310de16-fa98-4fbd-9027-570b33ec1c43.png",
+      alt: "Boneca Reborn Luly - Deitada de frente"
     },
     {
-      src: "/lovable-uploads/d1f034b5-5a80-4ce4-ac76-a9483d249183.png",
-      alt: "Boneca Reborn Luly - Vista de cima"
+      src: "/lovable-uploads/8ff5cc09-7f7c-4e0c-813d-5aaacb392201.png",
+      alt: "Boneca Reborn Luly - Deitada de lado"
     },
     {
-      src: "/lovable-uploads/efea8e54-a3f6-4ba5-bbf5-a55cedbcf8ef.png",
-      alt: "Boneca Reborn Luly - Detalhe"
+      src: "/lovable-uploads/6bfe56cf-faa0-4bec-a3d5-0a1f12eafdfe.png",
+      alt: "Boneca Reborn Luly - Com acessórios"
+    },
+    {
+      src: "/lovable-uploads/2b20d845-a0c5-420e-9fa7-cb6d52615b89.png",
+      alt: "Boneca Reborn Luly - Vista detalhada"
     }
   ];
 
