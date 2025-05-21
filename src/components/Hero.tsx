@@ -35,7 +35,7 @@ const Hero = () => {
           <div className="relative w-full max-w-md">
             <div className="absolute inset-0 rounded-full bg-luly-pink/50 blur-3xl transform -translate-y-4"></div>
             <img 
-              src="/placeholder.svg" 
+              src="/lovable-uploads/91cf2a7b-b48a-4c2b-9538-28bcd070af79.png" 
               alt="Boneca Reborn Luly" 
               className="relative z-10 rounded-2xl shadow-lg w-full"
             />

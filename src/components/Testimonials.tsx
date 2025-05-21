@@ -5,13 +5,13 @@ const Testimonials = () => {
       name: "Maria",
       location: "São Paulo, SP",
       quote: "Parece um bebê de verdade! Os detalhes são impressionantes e o material é de ótima qualidade.",
-      avatar: "/placeholder.svg"
+      avatar: "/lovable-uploads/03f1c82d-7c9f-4df3-9943-692570dcffd2.png"
     },
     {
       name: "Joana",
       location: "Belo Horizonte, MG",
       quote: "Minha filha amou, não larga mais! Foi o presente perfeito para o aniversário dela.",
-      avatar: "/placeholder.svg"
+      avatar: "/lovable-uploads/ad1af749-aaf1-4de3-87fe-a8c0b4c14470.png"
     },
     {
       name: "Carla",
