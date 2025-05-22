@@ -18,6 +18,30 @@ const Testimonials = () => {
       location: "Rio de Janeiro, RJ",
       quote: "A Luly é tão realista que até meu marido se impressionou. Os acessórios que vieram junto são lindos!",
       avatar: "/placeholder.svg"
+    },
+    {
+      name: "Ana Paula",
+      location: "Florianópolis, SC",
+      quote: "A boneca Luly é incrível! Minha filha não se separa dela nem para dormir.",
+      avatar: "/lovable-uploads/9f1d55df-db9e-4ea5-84f8-6da53a4d6226.png"
+    },
+    {
+      name: "Beatriz",
+      location: "Salvador, BA",
+      quote: "A qualidade é surpreendente! Parece mesmo um bebê real, recomendo muito.",
+      avatar: "/lovable-uploads/aefedcaa-ce9d-4953-90c9-cad9927e1edf.png"
+    },
+    {
+      name: "Luciana",
+      location: "Curitiba, PR",
+      quote: "Meu filho adora a Luly. Foi o melhor presente que poderia ter dado a ele.",
+      avatar: "/lovable-uploads/e44675fa-7876-4d3b-a16f-73f6982ce453.png"
+    },
+    {
+      name: "Helena",
+      location: "Brasília, DF",
+      quote: "A Luly trouxe tanta alegria para nossa família. O nível de detalhe é impressionante!",
+      avatar: "/lovable-uploads/a98bb59e-ea2d-4e05-b4e2-c0d9c2f75465.png"
     }
   ];
 
