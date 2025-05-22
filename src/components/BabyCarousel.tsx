@@ -25,6 +25,14 @@ const BabyCarousel = () => {
     {
       src: "/lovable-uploads/2b20d845-a0c5-420e-9fa7-cb6d52615b89.png",
       alt: "Boneca Reborn Luly - Vista detalhada"
+    },
+    {
+      src: "/lovable-uploads/973b5710-7164-4e2a-86a9-5cf0f76d0b3e.png",
+      alt: "Boneca Reborn Luly - Bebê sorrindo com roupa cinza"
+    },
+    {
+      src: "/lovable-uploads/e2d01f3b-cf98-4f2b-a9f5-298e99d6b56f.png",
+      alt: "Boneca Reborn Luly - Bebê dormindo com roupinha azul"
     }
   ];
 

@@ -1,8 +1,23 @@
 
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [currentImage, setCurrentImage] = useState(0);
+  const images = [
+    "/lovable-uploads/91cf2a7b-b48a-4c2b-9538-28bcd070af79.png",
+    "/lovable-uploads/973b5710-7164-4e2a-86a9-5cf0f76d0b3e.png",
+    "/lovable-uploads/e2d01f3b-cf98-4f2b-a9f5-298e99d6b56f.png"
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % images.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [images.length]);
+
   return (
     <div className="relative overflow-hidden baby-gradient">
       <div 
@@ -30,15 +45,26 @@ const Hero = () => {
           </div>
         </div>
         
-        {/* Hero image */}
-        <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center animate-float">
+        {/* Hero images - carousel effect */}
+        <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center">
           <div className="relative w-full max-w-md">
-            <div className="absolute inset-0 rounded-full bg-luly-pink/50 blur-3xl transform -translate-y-4"></div>
-            <img 
-              src="/lovable-uploads/91cf2a7b-b48a-4c2b-9538-28bcd070af79.png" 
-              alt="Boneca Reborn Luly" 
-              className="relative z-10 rounded-2xl shadow-lg w-full"
-            />
+            {images.map((image, index) => (
+              <div 
+                key={index}
+                className={`absolute inset-0 transition-opacity duration-1000 ${
+                  currentImage === index ? "opacity-100" : "opacity-0"
+                }`}
+              >
+                <div className="absolute inset-0 rounded-full bg-luly-pink/50 blur-3xl transform -translate-y-4"></div>
+                <img 
+                  src={image} 
+                  alt={`Boneca Reborn Luly - Imagem ${index + 1}`} 
+                  className={`relative z-10 rounded-2xl shadow-lg w-full ${
+                    currentImage === index ? "animate-float" : ""
+                  }`}
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>
