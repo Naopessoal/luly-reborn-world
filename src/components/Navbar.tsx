@@ -32,26 +32,26 @@ const Navbar = () => {
             <a href="#comprar" className="font-medium hover:text-luly-accent transition-colors">
               Comprar
             </a>
-            <Link to="/cart">
+            <a href="https://link.bynetglobal.com.br/BebeReborn_fretegratis" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="icon" className="ml-2 relative">
                 <ShoppingCart className="h-5 w-5" />
                 <span className="absolute -top-1 -right-1 bg-luly-cta text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
                   1
                 </span>
               </Button>
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
           <div className="flex items-center md:hidden">
-            <Link to="/cart" className="mr-2">
+            <a href="https://link.bynetglobal.com.br/BebeReborn_fretegratis" target="_blank" rel="noopener noreferrer" className="mr-2">
               <Button variant="outline" size="icon" className="relative">
                 <ShoppingCart className="h-5 w-5" />
                 <span className="absolute -top-1 -right-1 bg-luly-cta text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
                   1
                 </span>
               </Button>
-            </Link>
+            </a>
             <Button 
               variant="ghost" 
               size="icon"

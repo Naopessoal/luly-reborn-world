@@ -1,7 +1,6 @@
 
 import { ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 
 const Pricing = () => {
   return (
@@ -70,14 +69,14 @@ const Pricing = () => {
               </div>
             </div>
 
-            <Link to="/cart">
+            <a href="https://link.bynetglobal.com.br/BebeReborn_fretegratis" target="_blank" rel="noopener noreferrer">
               <Button 
                 className="w-full bg-luly-cta hover:bg-luly-cta/80 text-white font-medium py-6 text-lg rounded-full button-bounce"
               >
                 <ShoppingCart className="mr-2 h-5 w-5" />
                 Adicionar ao Carrinho
               </Button>
-            </Link>
+            </a>
 
             <p className="text-center text-sm text-gray-500 mt-4">
               Pagamento seguro e processamento rápido
