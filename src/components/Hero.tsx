@@ -47,7 +47,7 @@ const Hero = () => {
         
         {/* Hero images - carousel effect */}
         <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center">
-          <div className="relative w-full max-w-md">
+          <div className="relative w-full max-w-sm md:max-w-md h-80 md:h-96">
             {images.map((image, index) => (
               <div 
                 key={index}
@@ -59,7 +59,7 @@ const Hero = () => {
                 <img 
                   src={image} 
                   alt={`Boneca Reborn Luly - Imagem ${index + 1}`} 
-                  className={`relative z-10 rounded-2xl shadow-lg w-full ${
+                  className={`relative z-10 rounded-2xl shadow-lg w-full h-full object-cover ${
                     currentImage === index ? "animate-float" : ""
                   }`}
                 />
